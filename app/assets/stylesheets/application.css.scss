@@ -24,8 +24,13 @@ h1 {
  font-weight: 700; 
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
   font-family:  'Open Sans', sans-serif;
+}
+
+p {
+  margin: 2em 8em;
+  text-align: left;
 }
 
 //Background Gradient
@@ -33,10 +38,6 @@ h1, h2, h3 {
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.navbar {
-  border: none;
 }
 
 //Home page styles
@@ -47,7 +48,7 @@ h1, h2, h3 {
   padding-bottom: 100px
 }
 
-//Navbar fonts
+//Navbar styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
@@ -55,4 +56,13 @@ h1, h2, h3 {
     color: white;
     opacity: 0.75;
   }
+}
+
+.navbar {
+  border: none;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
